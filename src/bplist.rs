@@ -5,7 +5,7 @@ pub struct Song {
     pub key: String,
     pub hash: String,
     pub name: String,
-    pub uploader: String
+    pub uploader: String,
 }
 
 #[allow(non_snake_case, dead_code)]
@@ -15,5 +15,5 @@ pub struct Bplist {
     playlistAuthor: String,
     playlistDescription: String,
     syncURL: String,
-    pub songs: Vec<Song>
+    pub songs: Vec<Song>,
 }
